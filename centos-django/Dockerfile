@@ -1,4 +1,4 @@
-FROM centos-python:2.7.12
+FROM centos-python:2.7.12.1557050764
 
 LABEL name="centos-django"
 LABEL version="1557050764"
