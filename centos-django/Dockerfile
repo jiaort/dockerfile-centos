@@ -17,6 +17,8 @@ RUN rpm --rebuilddb && yum -y update && \
         openldap-devel
 RUN yum clean all
 
+ENV LANG zh_CN.UTF-8
+
 # Install Fonts
 RUN mkdir -p /usr/share/fonts/chinese/TrueType/
 ADD fonts/SIMSUN.TTC /usr/share/fonts/chinese/TrueType/
