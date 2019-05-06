@@ -1,4 +1,4 @@
-FROM centos-django:2.7.12.1557050764
+FROM centos-django:1557050764
 
 LABEL name="centos-django-supervisor"
 LABEL version="1557050764"
